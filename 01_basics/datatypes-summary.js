@@ -33,11 +33,36 @@ let myObj = {
     age: 21,
 }
 
-
-// ************************ functions *****************
+// *************** functions *****************
 
 const myFunction = function(){
     console.log("Hello World");
 }
 
 console.log(typeof myObj)
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(Primitive), Heap (Non-Ptrimitive)
+
+
+let myYoutubename = "masterppvlogs"
+let anothername = myYoutubename
+anothername = "pratyush"
+
+console.log(myYoutubename)
+console.log(anothername)
+
+let userOne = {
+    name: "Pratyush",
+    age: 21,
+    email: "hehe@gmail.com"
+}
+
+let userTwo = userOne
+
+userTwo.email = "pratyushpatwal@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
